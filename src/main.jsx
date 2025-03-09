@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./page/Home";
 import AboutMe from "./page/About-me";
-import Error404 from "./page/error404.jsx";
+import Error404 from "./page/error404";
 
 
 const router = createBrowserRouter([

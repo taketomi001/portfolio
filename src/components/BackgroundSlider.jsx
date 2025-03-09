@@ -1,12 +1,13 @@
 import { useState, useEffect, useRef } from "react";
+import Img1 from '../assets/unsplash.jpg';
+import Img2 from '../assets/alex.jpg';
+import Img3 from '../assets/alex2.jpg';
+import Img4 from '../assets/senad.jpg';
+import Img5 from '../assets/urbain.jpg';
 
 const BackgroundSlider = () => {
   const images = [
-    "../src/assets/unsplash.jpg",
-    "./src/assets/alex.jpg",
-    "./src/assets/alex2.jpg",
-    "./src/assets/senad.jpg",
-    "./src/assets/urbain.jpg",
+   Img1,Img2,Img3,Img4,Img5,
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -35,7 +36,7 @@ const BackgroundSlider = () => {
         const nextIndex = (currentImageIndex + 1) % images.length;
         setCurrentImageIndex(nextIndex);
         setFade(true); // Reviens à une opacité de 1 (visible) après le changement d'image
-      }, 2000); // Attends la fin de la transition avant de changer d'image (2 secondes)
+      }, 100); // Attends la fin de la transition avant de changer d'image (2 secondes)
 
     }, 5000); // Change l'image toutes les 5 secondes
 
