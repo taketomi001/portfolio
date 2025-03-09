@@ -2,11 +2,11 @@ import { useState, useEffect, useRef } from "react";
 
 const BackgroundSlider = () => {
   const images = [
-    "../src/assets/unsplash.jpg",
-    "./src/assets/alex.jpg",
-    "./src/assets/alex2.jpg",
-    "./src/assets/senad.jpg",
-    "./src/assets/urbain.jpg",
+    "../build/src/assets/unsplash.jpg",
+    "../build/src/assets/alex.jpg",
+    "../build/src/assets/alex2.jpg",
+    "../build/src/assets/senad.jpg",
+    "../build/src/assets/urbain.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
