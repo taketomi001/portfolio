@@ -4,7 +4,8 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./page/Home";
 import AboutMe from "./page/About-me";
-console.log(App);
+import Error404 from "./page/error404.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/about-me",  // Changed to use a hyphen
         element: <AboutMe />,
+      },
+      {
+        path: '*',
+        element: <Error404 />,
       },
     ],
   },
