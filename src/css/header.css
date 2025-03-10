@@ -97,8 +97,7 @@ header {
   z-index: 3;
 }
 
-.menu.open,
-.overlay1.open {
+.menu.open,.overlay1 {
   display: block;
 }
 
@@ -130,5 +129,5 @@ header {
   top: 0;
   left: 0;
   position: absolute;
-  z-index: 2;
+  z-index: -1;
 }
