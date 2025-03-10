@@ -3,14 +3,15 @@
 
 }
 .cordonnée {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   gap: 5vh;
   align-items: first baseline;
   background-color: rgba(2, 12, 22, 1);
-  width: 60%;
-  margin: 0 auto;
-  border-radius: 0 0 10px 10px;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 10px 10px 10px 10px;
   padding-bottom: 1%;
   color: white;
 }

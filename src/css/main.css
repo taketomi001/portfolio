@@ -1,8 +1,8 @@
 main {
   background-color: rgba(2, 12, 22,1);
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 10px 10px;
   padding-bottom: 1%;
   color: white;
   .content{
@@ -16,5 +16,5 @@ h2 {
   padding-top:10px
 }
 @media screen and (max-width: 730px) {
-main{ width: 80%;}
+
 }

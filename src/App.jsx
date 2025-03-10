@@ -6,9 +6,9 @@ import { Outlet } from "react-router-dom";
 function App() {
   return (
     <>
-      <BackgroundSlider />
       <Header />
       <main>
+      <BackgroundSlider />
         <Outlet />
       </main>
       <Footer />

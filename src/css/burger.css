@@ -1,0 +1,7 @@
+.burger { display: flex; flex-direction: column; gap: 5px;
+  div {
+    background-color: beige;
+    width: 20px;
+    height: 10px;
+  }
+}
