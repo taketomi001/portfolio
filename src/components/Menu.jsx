@@ -3,10 +3,12 @@ import React from "react";
 
 const Menu = ({ open, menuRef, closeMenu }) => {
   const handleLinkClick = () => {
-    closeMenu(); // Ferme le menu après avoir cliqué sur un lien
+    closeMenu(); 
   };
-  return (
-    <nav className={`menu ${open ? "open" : "!open"}`} ref={menuRef}>
+  return (<>
+    <div className={`overlay1 ${open ? "open" : ""}`} onClick={handleLinkClick}
+    ></div>
+    <nav className={`menu ${open ? "open" : ""}`} ref={menuRef}>
       <ul onClick={handleLinkClick}>
         <li>
           <Link to="/">Accueil</Link>
@@ -22,6 +24,7 @@ const Menu = ({ open, menuRef, closeMenu }) => {
         </li>
       </ul>
     </nav>
+    </>
   );
 };
 

@@ -6,24 +6,24 @@ import "../css/header.css";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const menuRef = useRef();
+  // const menuRef = useRef();
 
   // Fonction pour fermer le menu si on clique à l'extérieur
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setOpen(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleClickOutside = (event) => {
+  //     if (menuRef.current && !menuRef.current.contains(event.target)) {
+  //       setOpen(false);
+  //     }
+  //   };
+  //   document.addEventListener("mousedown", handleClickOutside);
 
-    document.addEventListener("mousedown", handleClickOutside);
 
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener("mousedown", handleClickOutside);
+  //   };
+  // }, []);
 
-  // Fonction pour fermer le menu
+  
   const closeMenu = () => {
     setOpen(false);
   };
@@ -48,8 +48,7 @@ const Header = () => {
         </menu>
       </nav>
       <Burger open={open} setOpen={setOpen} />
-      {/* Passer la fonction closeMenu à Menu */}
-      <Menu open={open} menuRef={menuRef} closeMenu={closeMenu} />
+      <Menu open={open}  closeMenu={closeMenu} />
     </header>
   );
 };
