@@ -28,7 +28,7 @@ const Header = () => {
 
   return (
     <header>
-      <div>
+      <div className="title">
         <h1>DYKHOUNPHYPHETH</h1>
         <h2>Charles-Eric</h2>
       </div>

@@ -11,10 +11,100 @@ main {
     margin-left: 10%;
   }
 }
+/* .content{position: relative;} */
 h2 {
   text-align: center;
-  padding-top:10px
+  padding-top:10px;
+  
 }
+.status{color: #f41ec2;position: relative;
+  }
+  .web{position: absolute; margin-left: 5px;animation: blink 5s ease-in-out forwards; }
+  .web2{animation: opacityAnimation 3s linear 6s forwards;}
+
+@keyframes blink { 
+  0% { opacity:1; transform:rotateZ(0deg);}
+  12.5% { opacity:0;transform:rotateZ(0deg); }
+  25% { opacity:1; transform:rotateZ(0deg);} 
+  30% { opacity:0; transform:rotateZ(0deg);} 
+  35% { opacity:0; transform:rotateZ(0deg);} 
+  37.5% { opacity:0; transform:rotateZ(12deg) translateX(3px) translateY(3px);} 
+  50% { opacity:1; transform:rotateZ(12deg) translateX(3px) translateY(3px);} 
+  62.5% { opacity:0; transform:rotateZ(12deg) translateX(3px) translateY(3px);} 
+  75% { opacity:1; transform:rotateZ(25deg) translateX(5px) translateY(5px);} 
+  87.5% { opacity:0;transform:rotateZ(25deg)translateX(5px) translateY(5px);} 
+  99% { opacity:1;transform:rotateZ(25deg) translateX(5px) translateY(5px);} 
+  100% { opacity:1;transform:rotateZ(45deg) translateX(10px) translateY(10px);}
+}
+@keyframes opacityAnimation {
+  0% {
+    opacity: 1; /* À 0%, l'élément est complètement transparent */
+  }
+  5% {
+    opacity: 0; /* À 5%, l'élément est légèrement visible */
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1; /* À 50%, l'élément est à moitié visible */
+  }
+  55% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 0;
+  }
+  97% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0; /* À 100%, l'élément est complètement visible */
+  }
+}
+
 @media screen and (max-width: 730px) {
 
 }

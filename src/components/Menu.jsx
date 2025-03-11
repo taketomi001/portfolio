@@ -3,27 +3,30 @@ import React from "react";
 
 const Menu = ({ open, menuRef, closeMenu }) => {
   const handleLinkClick = () => {
-    closeMenu(); 
+    closeMenu();
   };
-  return (<>
-    <div className={`overlay1 ${open ? "open" : ""}`} onClick={handleLinkClick}
-    ></div>
-    <nav className={`menu ${open ? "open" : ""}`} ref={menuRef}>
-      <ul onClick={handleLinkClick}>
-        <li>
-          <Link to="/">Accueil</Link>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-        <li>
-          <Link to="/porfolio">Porfolio</Link>
-        </li>
-      </ul>
-    </nav>
+  return (
+    <>
+      <div
+        className={`overlay1 ${open ? "open" : ""}`}
+        onClick={handleLinkClick}
+      ></div>
+      <nav className={`menu ${open ? "open" : ""}`} ref={menuRef}>
+        <ul onClick={handleLinkClick}>
+          <li>
+            <Link to="/">Accueil</Link>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/porfolio">Porfolio</Link>
+          </li>
+        </ul>
+      </nav>
     </>
   );
 };
