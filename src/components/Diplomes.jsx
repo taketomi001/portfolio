@@ -8,11 +8,11 @@ export default function Diplome() {
         <li>2019 à 2021 : École infirmière à l'IFMP de tabres</li>
 
         <li>
-          2012 - 2014 : première année de licence - biologie biochimie - faculté
+          2012 - 2014 : Première année de licence - biologie biochimie - faculté
           d’Orléans
         </li>
         <li>
-          2010 - 2012 : bac sciences et technologiques de la santé et du sociale
+          2010 - 2012 : Bac sciences et technologiques de la santé et du sociale
           - lycée voltaire Orléans
         </li>
         <li>
