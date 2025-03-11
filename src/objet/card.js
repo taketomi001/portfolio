@@ -1,6 +1,6 @@
-import Image1 from '../src/assets/pokexplorer.png'
-import Image2 from '../src/assets/squide_game.png'
-import Image3 from '../src/assets/relax.png'
+import Image1 from '../assets/pokexplorer.png'
+import Image2 from '../assets/squide_game.png'
+import Image3 from '../assets/relax.png'
 export const Objets=[
     {id:1,
         titre:"squide game",
