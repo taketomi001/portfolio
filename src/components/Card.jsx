@@ -9,7 +9,7 @@ return(<>
        <div className="cartes-container">
         {Objets.map((objet, index) => (
           <div className="carte">
-      <img src={{BASE_URL}.objet.image} alt={objet.titre} />
+      <img src={`${BASE_URL}${objet.image}`} alt={objet.titre} />
       <div className="carte-content">
         <h2>{objet.titre}</h2>
         <p className='description'>{objet.description}</p>
