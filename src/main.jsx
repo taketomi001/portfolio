@@ -5,6 +5,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./page/Home";
 import AboutMe from "./page/About-me";
 import Error404 from "./page/error404";
+import Contact from "./page/contact";
+import Portfolio from "./page/porfolio";
 
 const router = createBrowserRouter(
   [
@@ -18,6 +20,14 @@ const router = createBrowserRouter(
         {
           path: "/about-me", // Changed to use a hyphen
           element: <AboutMe />,
+        },
+        {
+          path: "/contact", // Changed to use a hyphen
+          element: <Contact />,
+        },
+        {
+          path: "/portfolio", // Changed to use a hyphen
+          element: <Portfolio/>,
         },
         {
           path: "*",

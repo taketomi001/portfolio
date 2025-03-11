@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Footer from "./components/Contact";
 import BackgroundSlider from "./components/BackgroundSlider";
 import { Outlet } from "react-router-dom";
 
@@ -11,7 +11,7 @@ function App() {
       <BackgroundSlider />
         <Outlet />
       </main>
-      <Footer />
+      
     </>
   );
 }

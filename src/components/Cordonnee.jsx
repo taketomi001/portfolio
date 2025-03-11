@@ -1,7 +1,7 @@
 import IconePhone from "../assets/phone-icone.png";
 import IconeMail from "../assets/mail.png";
 import "../css/footer.css";
-export default function Footer() {
+export default function Cordonnee() {
   return (
     <>
       <footer className="cordonnée">

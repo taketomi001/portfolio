@@ -20,7 +20,7 @@ const Menu = ({ open, menuRef, closeMenu }) => {
           <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
