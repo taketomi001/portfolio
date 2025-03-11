@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --config vite.config.prod.js",
+    "deploy": "gh-pages -d dist --repo https://github.com/taketomi001/portfolio",
     "lint": "eslint .",
     "preview": "vite preview"
   },
