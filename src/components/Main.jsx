@@ -1,7 +1,7 @@
 import '../css/main.css'
 import Xp from './Xp'
 import Diplomes from './Diplomes'
-import Competences from './competences'
+import Competences from './Competences'
 export default function Main(){
     return(<>
     <div className='content'>
