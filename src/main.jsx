@@ -12,11 +12,11 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/portfoilo/",
         element: <Home />,
       },
       {
-        path: "/about-me",  // Changed to use a hyphen
+        path: "/portfoilo/about-me",  // Changed to use a hyphen
         element: <AboutMe />,
       },
       {
