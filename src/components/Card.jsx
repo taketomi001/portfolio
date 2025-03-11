@@ -5,7 +5,7 @@ export default function Card(){
 
 return(<>
 <div>
-      <h1>Liste de Cartes</h1>
+      <h1>Liste des projets</h1>
        <div className="cartes-container">
         {Objets.map((objet) => (
           <div className="carte">
