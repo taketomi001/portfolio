@@ -17,9 +17,9 @@ export default function AboutMe() {
           décidé de revenir dans ma région d'origine. C'est à ce moment-là
           qu'une rencontre déterminante a marqué mon parcours : une personne de
           mon entourage, elle-même experte en développement web, a eu la
-          générosité et la bienveillance de m’initier à cet univers fascinant.
+          générosité et la bienveillance de m'initier à cet univers fascinant.
           Depuis, le code est devenu non seulement une compétence
-          professionnelle, mais une véritable passion qui m’accompagne dans
+          professionnelle, mais une véritable passion qui m'accompagne dans
           toutes mes créations numériques.
         </p>
         <p>
