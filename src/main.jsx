@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./page/Home";
-import AboutMe from "./page/About-me";
+import AboutMe from "./page/aboutMe";
 import Error404 from "./page/error404";
 import Contact from "./page/contact";
 import Portfolio from "./page/porfolio";
