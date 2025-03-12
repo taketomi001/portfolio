@@ -17,13 +17,13 @@ const Menu = ({ open, menuRef, closeMenu }) => {
             <Link to="/">Accueil</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about-me">About</a>
           </li>
           <li>
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/porfolio">Porfolio</Link>
+            <Link to="/portfolio">Portfolio</Link>
           </li>
         </ul>
       </nav>

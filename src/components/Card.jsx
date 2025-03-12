@@ -8,7 +8,7 @@ export default function Card() {
         <h1>Liste des projets</h1>
         <div className="cartes-container">
           {Objets.map((objet) => (
-            <div className="carte">
+            <div className="carte" key={objet.id}>
               <img src={`${objet.image}`} alt={objet.titre} />
               <div className="carte-content">
                 <h2>{objet.titre}</h2>
