@@ -1,5 +1,6 @@
-import IconePhone from "../assets/phone-icone.png";
+import IconePhone from "../assets/tel.png";
 import IconeMail from "../assets/mail.png";
+import GITHUB from "../assets/github.png";
 import "../css/footer.css";
 export default function Cordonnee() {
   return (
@@ -21,6 +22,10 @@ export default function Cordonnee() {
             <a href="mailto:dykhounphypheth@gmail.com">
               dykhounphypheth@gmail.com
             </a>
+          </div>
+          <div className="github">
+            <img src={GITHUB} alt="icone github" className="icone" />
+            <a href="https://github.com/taketomi001">github.com/taketomi001</a>
           </div>
         </div>
       </footer>
