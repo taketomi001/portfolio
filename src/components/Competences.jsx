@@ -1,4 +1,4 @@
-import MySwiper from './Myswiper'
+import MySwiper from './MySwiper'
 export default function Competences(){
     return (<>
     <section>
