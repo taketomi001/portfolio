@@ -20,13 +20,13 @@ const BackgroundSlider = () => {
       });
     };
 
-    // Applique l'image de fond sur le body dès le départ
+
     preloadImages(images);
     document.body.style.backgroundImage = `url(${images[currentImageIndex]})`;
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
-    document.body.style.height = "100vh"; // pour que l'image couvre tout l'écran
-    document.body.style.transition = "background-image 1s ease-in-out"; // Transition réduite à 2 secondes
+    document.body.style.height = "100vh"; 
+    document.body.style.transition = "background-image 1s ease-in-out";
     document.body.style.margin = 0;
 
     const interval = setInterval(() => {

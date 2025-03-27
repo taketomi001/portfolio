@@ -17,7 +17,7 @@ const Menu = ({ open, menuRef, closeMenu }) => {
             <Link to="/">Accueil</Link>
           </li>
           <li>
-            <Link to="/about-me">About</Link>
+            <Link to="/cv">CV</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>

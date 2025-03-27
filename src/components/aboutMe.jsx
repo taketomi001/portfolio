@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <>
-      <h2>About me</h2>
+      <h2>A propos de moi</h2>
       <div className="content">
         <p>
           Bonjour ou bonsoir, tout dépend de l'heure à laquel vous consulter ce
@@ -25,8 +25,8 @@ export default function AboutMe() {
         <p>
           Actuellement en formation pour obtenir le diplôme de Concepteur et
           Développeur d'Applications, je suis activement à la recherche d'un
-          stage enrichissant, débutant le 23 juin 2024 et se poursuivant
-          jusqu'au 2 septembre 2024. Ce stage représente pour moi une
+          stage enrichissant, débutant le 23 juin 2025 et se poursuivant
+          jusqu'au 2 septembre 2025. Ce stage représente pour moi une
           opportunité précieuse de mettre en pratique mes compétences tout en
           continuant à apprendre et à relever de nouveaux défis dans le domaine
           du développement web et des applications.

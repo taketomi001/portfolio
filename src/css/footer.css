@@ -21,6 +21,7 @@
   gap: 5px;
 margin-top: 5px;
 }
+.phone, .mail, .github{ a{color: white;}}
 
 /* *{border: black solid 1px;} */
 @media screen and (max-width: 730px) {

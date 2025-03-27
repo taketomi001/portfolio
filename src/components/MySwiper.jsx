@@ -1,5 +1,4 @@
 import React from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import HTML from "../assets/html.png"
 import CSS from "../assets/css.png"
@@ -8,29 +7,20 @@ import REACT from "../assets/react.png"
 import PHP from "../assets/php.png"
 import SQL from "../assets/sql.png"
 import JAVA from "../assets/java.png"
+import ANGULAR from "../assets/angular.png"
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 import '../css/mySwiper.css';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 
 export default function MySwiper() {
   return (
     <>
-     <Swiper
-        slidesPerView={'auto'}
-        centeredSlides={true}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
+     <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide><img src={HTML} alt="" /></SwiperSlide>
         <SwiperSlide><img src={CSS} alt="" /></SwiperSlide>
         <SwiperSlide><img src={JS} alt="" /></SwiperSlide>
@@ -38,6 +28,7 @@ export default function MySwiper() {
         <SwiperSlide><img src={PHP} alt="" /></SwiperSlide>
         <SwiperSlide><img src={SQL} alt="" /></SwiperSlide>
         <SwiperSlide><img src={JAVA} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={ANGULAR} alt="" /></SwiperSlide>
         
       </Swiper>
     </>

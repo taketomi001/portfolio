@@ -7,7 +7,7 @@ export const Objets = [
     titre: "squide game",
     image: Image2,
     url: "https://taketomi001.github.io/squid_game/",
-    description: "Trouver la carte pour participer au jeu squide game",
+    description: "Trouver la carte pour participer au jeu squide game en vanilla.",
   },
   {
     id: 2,
@@ -23,6 +23,6 @@ export const Objets = [
     image: Image3,
     url: "https://chloeseclier.github.io/Hackathon2025-TEC/",
     description:
-      "Projet de 32h en groupe, dans le but d'un Hackathon.",
+      "Projet de 32h en groupe, dans le but d'un Hackathon sur React.",
   },
 ];

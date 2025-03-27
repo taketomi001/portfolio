@@ -3,10 +3,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./page/Home";
-import AboutMe from "./page/aboutMe";
 import Error404 from "./page/error404";
 import Contact from "./page/contact";
 import Portfolio from "./page/porfolio";
+import Cv from "./page/cv.jsx";
 
 const router = createBrowserRouter(
   [
@@ -18,8 +18,8 @@ const router = createBrowserRouter(
           element: <Home />,
         },
         {
-          path: "/about-me", // Changed to use a hyphen
-          element: <AboutMe />,
+          path: "/cv", // Changed to use a hyphen
+          element: <Cv />,
         },
         {
           path: "/contact", // Changed to use a hyphen

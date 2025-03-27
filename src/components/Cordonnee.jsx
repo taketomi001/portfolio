@@ -15,7 +15,7 @@ export default function Cordonnee() {
         <div className="footer-content">
           <div className="phone">
             <img src={IconePhone} alt="icone phone" className="icone" />
-            <a href="tel:0628029684"> 06.28.02.96.84</a>
+            <a href="tel:0628029684" className=""> 06.28.02.96.84</a>
           </div>
           <div className="mail">
             <img src={IconeMail} alt="icone mail" className="icone" />
