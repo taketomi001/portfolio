@@ -4,7 +4,7 @@ export default function AboutMe() {
       <h2>A propos de moi</h2>
       <div className="content">
         <p>
-          Bonjour ou bonsoir, tout dépend de l'heure à laquel vous consulter ce
+          Bonjour ou bonsoir, tout dépend de l'heure à laquelle vous consulter ce
           portfolio.
         </p>
         <p>
