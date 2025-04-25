@@ -42,6 +42,7 @@ export default function MySwiper() {
         modules={[Pagination]}
         className="mySwiper"
       >
+        <div className="swipeDiv">
         <SwiperSlide>
           <img src={HTML} alt="" />
         </SwiperSlide>
@@ -72,6 +73,7 @@ export default function MySwiper() {
         <SwiperSlide>
           <img src={ANGULAR} alt="" />
         </SwiperSlide>
+        </div>
       </Swiper>
     </>
   );
