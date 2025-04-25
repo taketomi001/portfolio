@@ -15,6 +15,7 @@ import PHP from "../assets/php.png";
 import SQL from "../assets/sql.png";
 
 import JAVA from "../assets/java.png";
+import ANGULAR from "../assets/angular.png";
 
 // Import Swiper styles
 
@@ -32,9 +33,9 @@ export default function MySwiper() {
   return (
     <>
       <Swiper
-        slidesPerView={"auto"}
-        centeredSlides={true}
+        slidesPerView={4}
         spaceBetween={30}
+        centeredSlides={true}
         pagination={{
           clickable: true,
         }}
@@ -67,6 +68,9 @@ export default function MySwiper() {
 
         <SwiperSlide>
           <img src={JAVA} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ANGULAR} alt="" />
         </SwiperSlide>
       </Swiper>
     </>

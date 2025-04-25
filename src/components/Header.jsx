@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import  { useState,} from "react";
 import Burger from "./Burger";
 import Menu from "./Menu";
 import { Link } from "react-router-dom";
@@ -6,22 +6,6 @@ import "../css/header.css";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  // const menuRef = useRef();
-
-  // Fonction pour fermer le menu si on clique à l'extérieur
-  // useEffect(() => {
-  //   const handleClickOutside = (event) => {
-  //     if (menuRef.current && !menuRef.current.contains(event.target)) {
-  //       setOpen(false);
-  //     }
-  //   };
-  //   document.addEventListener("mousedown", handleClickOutside);
-
-  //   return () => {
-  //     document.removeEventListener("mousedown", handleClickOutside);
-  //   };
-  // }, []);
-
   const closeMenu = () => {
     setOpen(false);
   };
