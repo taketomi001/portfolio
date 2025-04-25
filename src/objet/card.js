@@ -4,10 +4,10 @@ import Image3 from "../assets/relax.png";
 export const Objets = [
   {
     id: 1,
-    titre: "squide game",
+    titre: "squid game",
     image: Image2,
     url: "https://taketomi001.github.io/squid_game/",
-    description: "Trouver la carte pour participer au jeu squide game en vanilla.",
+    description: "Trouver la carte pour participer au jeu squid game en vanilla.",
   },
   {
     id: 2,
