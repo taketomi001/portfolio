@@ -1,6 +1,5 @@
 import { Objets } from "../objet/card.js";
 import "../css/card.css";
-const BASE_URL = import.meta.env.BASE_URL;
 export default function Card() {
   return (
     <>

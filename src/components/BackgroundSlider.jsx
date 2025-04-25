@@ -35,7 +35,7 @@ const BackgroundSlider = () => {
     }, 3000); // Change l'image toutes les 5 secondes
 
     return () => clearInterval(interval); // Nettoie l'intervalle quand le composant est démonté
-  }, [currentImageIndex]); // Cette dépendance permettra de mettre à jour le fond à chaque changement d'image
+  }, [currentImageIndex, images]); // Cette dépendance permettra de mettre à jour le fond à chaque changement d'image
 
   return null; // Pas besoin de rendre quoi que ce soit, le style est appliqué directement sur le body
 };
