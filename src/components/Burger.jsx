@@ -1,5 +1,3 @@
-import React from "react";
-
 const Burger = ({ open, setOpen }) => {
   return (
     <div className="burger" onClick={() => setOpen(!open)}>

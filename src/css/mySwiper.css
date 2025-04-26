@@ -1,55 +1,30 @@
 .swiper {
   width: 100%;
-
-  /* min-height: 100px; */
-
   display: flex;
-
   flex-direction: column;
-
   position: relative;
-  
   overflow: hidden;
-
 }
-/* .swipeDiv{display: flex; gap: 250px;} */
+
 .swiper-slide {
   text-align: center;
-
-  /* font-size: 18px; */
-
   background: #020c16;
-
-  /* max-width: clamp(150px, 200px, 300px); */
-
-  /* height: 250px; */
-
-  /* Center slide text vertically */
-
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
 
 .swiper-slide img {
-  /* display: block; */
-
   display: flex;
-
   width: 100%;
   margin-bottom: 25px;
 }
 
 .swiper-pagination {
   position: relative;
-
   text-align: center;
-
   transition: 300ms opacity;
-
   transform: translate3d(0, 0, 0);
-
   z-index: 10;
 }
 

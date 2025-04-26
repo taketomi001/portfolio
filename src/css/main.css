@@ -10,7 +10,6 @@ main {
     margin-left: 10%;
   }
 }
-/* .content{position: relative;} */
 h2 {
   text-align: center;
   padding-top: 10px;
@@ -120,10 +119,10 @@ h2 {
 }
 @keyframes opacityAnimation {
   0% {
-    opacity: 1; /* À 0%, l'élément est complètement transparent */
+    opacity: 1; 
   }
   5% {
-    opacity: 0; /* À 5%, l'élément est légèrement visible */
+    opacity: 0; 
   }
   10% {
     opacity: 1;
@@ -150,7 +149,7 @@ h2 {
     opacity: 0;
   }
   50% {
-    opacity: 1; /* À 50%, l'élément est à moitié visible */
+    opacity: 1; 
   }
   55% {
     opacity: 0;
@@ -183,9 +182,7 @@ h2 {
     opacity: 1;
   }
   100% {
-    opacity: 0; /* À 100%, l'élément est complètement visible */
+    opacity: 0; 
   }
 }
 
-@media screen and (max-width: 730px) {
-}

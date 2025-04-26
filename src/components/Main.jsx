@@ -1,6 +1,4 @@
 import '../css/main.css'
-import Xp from './Xp'
-import Diplomes from './Diplomes'
 import Competences from './Competences'
 import AboutMe from './aboutMe'
 export default function Main(){

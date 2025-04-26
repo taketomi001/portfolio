@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 
-// eslint-disable-next-line react/prop-types
 const Menu = ({ open, menuRef, closeMenu }) => {
   const handleLinkClick = () => {
     closeMenu();

@@ -5,11 +5,9 @@ import Img3 from '../assets/alex2.jpg';
 import Img4 from '../assets/senad.jpg';
 import Img5 from '../assets/urbain.jpg';
 
-// import { useState, useEffect } from "react";
 
 const BackgroundSlider = () => {
   const images = [Img1, Img2, Img3, Img4, Img5];
-
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -32,12 +30,12 @@ const BackgroundSlider = () => {
     const interval = setInterval(() => {
       const nextIndex = (currentImageIndex + 1) % images.length;
       setCurrentImageIndex(nextIndex);
-    }, 3000); // Change l'image toutes les 5 secondes
+    }, 3000); 
 
-    return () => clearInterval(interval); // Nettoie l'intervalle quand le composant est démonté
-  }, [currentImageIndex, images]); // Cette dépendance permettra de mettre à jour le fond à chaque changement d'image
+    return () => clearInterval(interval); 
+  }, [currentImageIndex, images]); 
 
-  return null; // Pas besoin de rendre quoi que ce soit, le style est appliqué directement sur le body
+  return null; 
 };
 
 export default BackgroundSlider;
