@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Burger = ({ open, setOpen }) => {
   return (
     <div className="burger" onClick={() => setOpen(!open)}>

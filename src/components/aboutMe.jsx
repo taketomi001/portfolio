@@ -4,8 +4,8 @@ export default function AboutMe() {
       <h2>A propos de moi</h2>
       <div className="content">
         <p>
-          Bonjour ou bonsoir, tout dépend de l'heure à laquelle vous consulter ce
-          portfolio.
+          Bonjour ou bonsoir, tout dépend de l’heure à laquelle vous
+          consulter ce portfolio.
         </p>
         <p>
           Je suis M.DYKHOUNPHYPHETH Charles-Eric, un jeune développeur web
@@ -13,24 +13,25 @@ export default function AboutMe() {
           de défis stimulants.
         </p>
         <p>
-          Mon aventure dans le monde du développement web a débuté lorsque j'ai
-          décidé de revenir dans ma région d'origine. C'est à ce moment-là
-          qu'une rencontre déterminante a marqué mon parcours : une personne de
-          mon entourage, elle-même experte en développement web, a eu la
-          générosité et la bienveillance de m'initier à cet univers fascinant.
-          Depuis, le code est devenu non seulement une compétence
-          professionnelle, mais une véritable passion qui m'accompagne dans
-          toutes mes créations numériques.
+          Actuellement à la recherche d&apos;un emploi, je souhaite vous
+          proposer ma candidature pour un poste au sein de votre entreprise.
+          Motivé et dynamique, je suis prêt à m&apos;investir pleinement dans
+          les missions qui me seront confiées.
         </p>
         <p>
-          Actuellement en formation pour obtenir le diplôme de Concepteur et
-          Développeur d'Applications, je suis activement à la recherche d'un
-          stage enrichissant, débutant le 23 juin 2025 et se poursuivant
-          jusqu'au 2 septembre 2025. Ce stage représente pour moi une
-          opportunité précieuse de mettre en pratique mes compétences tout en
-          continuant à apprendre et à relever de nouveaux défis dans le domaine
-          du développement web et des applications.
+          Doté d’une bonne capacité d’adaptation et d’une forte motivation,
+          je suis convaincu de pouvoir m’intégrer rapidement à votre équipe
+          et contribuer efficacement à vos activités. Je suis ouvert à tout
+          type de poste et désireux d’apprendre et de relever de nouveaux
+          défis.
         </p>
+        <p>
+          Je me tiens à votre disposition pour un entretien afin de vous
+          présenter plus en détail ma motivation et mon intérêt pour votre
+          entreprise. Je vous remercie pour l’attention portée à ma candidature
+          et espère avoir l’opportunité de rejoindre votre équipe.
+        </p>
+        <p>Veuillez agréer, Madame, Monsieur, l’expression de mes salutations distinguées.</p>
       </div>
     </>
   );
